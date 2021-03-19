@@ -1,0 +1,370 @@
+body{
+    width: 904px;
+    height: 1280px;
+    border: 1px solid black;
+}
+.my-div-1
+{
+    background-color: maroon;
+    display: block;
+    height: 300px;
+    width:904px;
+}
+.my-div-2
+{
+    background-color: yellow;
+    display: inline;
+    height: 40px;
+    font-size: 50px;
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    left: 256px;
+    top:220px;
+    border-radius: 5px;
+    width: 400px;
+}
+.my-div-3
+{
+    background-color: white;
+    height: 20px;
+    position: absolute;
+    display: block;
+}
+.left_line
+{
+    background-color: white;
+    height: 30px;
+    width: 256px;
+    position: relative;
+    top:-79px
+}
+.right_line
+{
+    background-color: white;
+    height: 30px;
+    width: 256px;
+    position: relative;
+    left:648px;
+    top:-125px;
+}
+.circular-image>img
+{
+    height: 180px;
+    width: 200px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.circular-image
+{
+    position: absolute;
+    left: 3px;
+}
+.circle 
+{
+    height: 178px;
+    width: 206px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: dotted 5px yellow;
+    position: absolute;
+    top:50px;
+    left: 350px;
+}
+.Address
+{
+    position: relative;
+    top:-109px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+hr
+{
+    position: relative;
+    top:-130px;
+}
+.vertical-line
+{
+  border: none;
+  border-left: 1px solid black;
+  height: 853px;
+  position: absolute;
+  top:400px;
+  left: 451px;
+}
+.profile>img
+{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: dotted 5px red;
+    position: absolute;
+    top:390px;
+    left: 40px;
+}
+.profile-header
+{
+    position: absolute;
+    top:370px;
+    left: 110px;
+    font-size: 32px;
+}
+.profile-content
+{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    left: 40px;
+    top: -35px;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+.skills>img
+{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: dotted 5px red;
+    position: relative;
+    left: 32px;
+}
+.skills-header
+{
+    position: relative;
+    left: 100px;
+    top: -80px;
+    font-size: 32px;
+}
+.skills-tech
+{
+    font-weight: bold;
+    position: relative;
+    left: 180px;
+    top:-100px;
+}
+.list 
+{
+list-style-type: none;
+position: relative;
+top: -100px;
+font-size: 16px;
+
+}
+
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 30px;
+    height: 8px;
+    background-color: linear-gradient(to right,yellow ,grey);
+    background: linear-gradient(to right,yellow ,grey);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background:white;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range] {
+    width: 170px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background:linear-gradient(to right,yellow ,white);
+}
+.list-1
+{
+    list-style-type: none;
+    position: relative;
+    top: -245px;
+    left: 190px;
+}
+.skill-add
+{
+    position: relative;
+    top: -250px;
+    font-weight: bold;
+    left: 180px;
+}
+
+.List-2
+{
+    list-style-type: none;
+    position: relative;
+    top: -255px;
+    font-size: 16px;
+    
+}
+.list-3
+{
+    list-style-type: none;
+    position: relative;
+    top: -360px;
+    left: 190px;
+}
+.work-experience>img
+{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: dotted 5px red;
+    position: relative;
+    left: 32px;
+    top:-350px;
+}
+.work-header
+{
+    position: relative;
+    left: 100px;
+    top: -440px;
+    font-size: 32px;
+}
+.p-header
+{
+    position: relative;
+    top:-440px;
+    width :400px;
+    left:30px;
+   
+}
+.work-list
+{
+    width:360px;
+    position: relative;
+    top:-450px;
+    left:17px;
+    text-align: justify;
+}
+.work-header-1
+{
+    position: relative;
+    left:560px;
+    top:-1400px;
+    font-size: 32px;
+}
+.work-experience-2>img
+{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: dotted 5px red;
+    position: relative;
+    left: 480px;
+    top:-1320px;
+}
+.community
+{
+    position: relative;
+    left:480px;
+    top:-1420px;
+    width: 200px;
+    font-weight: bold;
+}
+.Dates
+{
+    position: relative;
+    left:740px;
+    top:-1470px;
+    width: 200px;
+}
+.G 
+{
+    position: relative;
+    left:480px;
+    top:-1470px;
+}
+.work-list-2
+{
+    position: relative;
+    left:470px;
+    top:-1480px;
+    width:300px;
+    text-align: justify;
+}
+.Education>img
+{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: dotted 5px red;
+    position: relative;
+    left: 480px;
+    top:-1480px;
+}
+.edu-header-1
+{
+    position: relative;
+    left:560px;
+    top:-1570px;
+    font-size: 32px;   
+}
+.edu-community
+{
+    position: relative;
+    left:480px;
+    top:-1580px;
+    width: 200px;
+    font-weight: bold;
+}
+.Datess
+{
+    position: relative;
+    left:740px;
+    top:-1630px;
+    width: 200px;   
+}
+.Chic
+{
+    position: relative;
+    left:480px;
+    top:-1630px;
+    width: 400px;
+}
+.work-list-3
+{
+    position: relative;
+    left:470px;
+    top:-1630px;
+    width:300px;
+    text-align: justify;
+}
+.BA
+{
+    position: relative;
+    left:490px;
+    top:-1630px;
+    width:300px;
+    text-align: justify;
+}
